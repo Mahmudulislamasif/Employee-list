@@ -1,0 +1,17 @@
+.input-class
+{
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.input-class:valid
+{
+    border-color: #9b59b9;
+}
